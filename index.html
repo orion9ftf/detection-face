@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="face-api.js"></script>
+  <title>Face API</title>
+  <style> /* no hagas esto jamás en la vida | es solo para fines ilustrativos rápidos en la vista */
+    body{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    canvas{
+      position: absolute;
+    }
+  </style> <!-- buenno te recuerdo que poner estilos en el archivo html es mala práctica en general asi que las penas para ti... -->
+</head>
+<body>
+  
+  <video id="video" width="720" height="560" autoplay muted></video>
+  <script src="script.js"></script>
+</body>
+</html>
